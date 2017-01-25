@@ -225,7 +225,7 @@ public class AddressBook {
             String userCommand = getUserInput();
             showToUser("[Command entered:" + userCommand + "]");
             String feedback = executeCommand(userCommand);
-            showToUser(result, DIVIDER);
+            showToUser(feedback, DIVIDER);
         }
     }
 
